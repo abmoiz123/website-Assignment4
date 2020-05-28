@@ -1,0 +1,9 @@
+#head {
+    background-color: blueviolet;
+}
+.ab, .ab1, .ab2 {
+    max-width: 33.33%;
+}
+.ab {
+    text-align: center;
+}

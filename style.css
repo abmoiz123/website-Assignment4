@@ -1,0 +1,635 @@
+#index2 {
+    background-color: #C09F80;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('Lobster-Regular.ttf');
+}
+.line-patti {
+    height: 5px;
+    background-color: #565656;
+}
+#head {
+    background-color: #D7CEC7;
+    color: #76323F;
+    display: flex;
+}
+.head {
+    background-color: #D7CEC7;
+    color: #76323F;
+    display: flex;
+}
+.head5 {
+    text-align: center;
+    background-color: #D7CEC7;
+    color: #76323F;
+    font-family: 'Lobster';
+    font-weight: bolder;
+    font-size: large;
+}
+.head2 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster';
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.head4 {
+    padding-left: 10px;
+    position: relative;
+    top: 15px;
+    flex: 1;
+    font-family: 'Lobster';
+    font-weight: bolder;
+    font-size: large;
+}
+.action-icon1-ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 14px;
+    padding: 0;
+    list-style-type: none;
+}
+.action-icon1-li {
+    display: flex;
+    flex-direction: row;
+}
+.action-icon1-li p {
+    cursor: pointer;
+}
+.action-icon1 {
+    color: #565656;
+    margin: auto 8px auto 8px;
+}
+.action-icon1-li a:link {
+    text-decoration: none;
+}
+.action-icon1-text {
+    color: #76323F;
+    display: inline-block;
+    font-size: medium;
+    font-family: 'Lobster';
+    margin: 0;
+}
+@media screen and (max-width: 600px) {
+    .action-icon1-text {
+      display: none;
+    }
+    i.action-icon1 {
+        margin: auto 10px auto 10px;
+    }
+    .search1 {
+        display: none;
+    }
+    .head4 {
+        display: none;
+    }
+    .head2 {
+        flex: 1;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .head4 {
+        display: none;
+    }
+    .head2 {
+        flex: 1;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .head5 {
+      display: none;
+    }
+}
+@media screen and (max-width: 770px) {    
+    .left-option, .left-option > a, .left-option > p {
+        display: none;
+    }
+    .right-option, .right-option > img {
+        display: none;
+    }
+}
+@media screen and (min-width: 770px) {
+    .service-btn {
+        display: none;
+    }
+}
+.nav-item p {
+  margin: 0;
+}
+.items {
+    background-color: #C09F80;
+}
+.items1 {
+    border: solid 1px #565656;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #D7CEC7;
+    color: #76323F;
+}
+.items1:hover {
+    background-color: #565656;
+    color: #D7CEC7;
+}
+.form-control {
+    width: 400px !important;
+}
+.search button {
+    background-color: #D7CEC7;
+    color: #76323F;
+    font-family: 'lobster';
+}
+.search button:hover {
+    font-family: 'lobster';
+    color: #D7CEC7;
+    background-color: #565656;
+}
+.bar-btn {
+    color: #565656;
+}
+.left-option {
+    width: 300px;
+    background-color: #C09F80;
+    padding: 0% !important;
+    margin: 0% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.items2 {
+    border: solid 1px #565656;
+    font-weight: bold;
+    padding: 25px !important;
+    background-color: #D7CEC7;
+    color: #76323F;
+    text-align: center;
+}
+.left-option p {
+  padding: 0;
+  margin: 0;
+}
+.items2:hover {
+    background-color: #565656;
+    color: #D7CEC7;
+}
+.center-option {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.arrow {
+    background-color: #565656 !important;
+    color: #565656 !important;
+}
+.dress {
+    width: 300px;
+    padding: 0% !important;
+    margin: 0% !important;
+}
+.right-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #C09F80;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.right-option > img {
+    width: 100%;
+    height: 120px;
+}
+.service-bar {
+    margin-left: 20px;
+}
+#product-1 {
+    background-color: #C09F80;
+}
+.new-arrival {
+    padding-top: 20px;
+}
+.heading {
+    padding: 0 !important;
+}
+.heading h2 {
+    font-family: 'Lobster';
+    color: #76323F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    border-radius: 30px;
+    background-color: #D7CEC7;
+}
+.heading h2:hover {
+    background-color: #565656;
+    color: #D7CEC7;
+}
+.product-3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #D7CEC7;
+    color: #76323F;
+}
+.product-3:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+.p-img {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.p-text {
+    font-weight: 500;
+    margin-top: 5px;
+}
+.p-p {
+    font-size: xx-large;
+}
+.p-p3:link, .p-p3:visited {
+    text-decoration: none;
+    color: #76323F;
+}
+.product-3 button {
+    color: #D7CEC7;
+    background-color: #565656;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    outline: 0;
+    padding: 12px;
+}
+.product-3 button:hover {
+    background-color: #76323F;
+}
+.product-3 p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.p-p2 {
+    margin-right: 10px;
+}
+.more1 p {
+    margin-top: 20px;
+}
+.more1 p > a:link, .more1 p > a:visited {
+    text-decoration: none;
+    color: #76323F;
+    background-color: #D7CEC7;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 40px 12px 40px;
+    font-family: "lobster";
+}
+.more1 p > a:hover {
+    background-color: #565656;
+    color: #D7CEC7;
+}
+footer {
+    color: #76323F;
+    background-color: #D7CEC7;
+}
+.footer-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact a:link, .contact a:visited {
+    text-decoration: none;
+    color: #76323F;
+}
+.contact a:hover {
+    color: #565656;
+}
+.contact-text {
+    font-family: 'lobster';
+    margin-top: 10px;
+}
+@media screen and (max-width: 992px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+    }
+    .contact a {
+        margin-right: 20px;
+    }
+}
+.Copyright {
+    margin-top: 30px;
+}
+.log-in2 {
+    font-size: 150px !important;
+}
+/* Full-width input fields */
+.log-in input[type=text], .log-in input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.log-in-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.log-in-btn:hover, .cancelbtn:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: scroll; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0)
+    } 
+    to {
+      -webkit-transform: scale(1)
+    }
+}
+  
+@keyframes animatezoom {
+    from {
+      transform: scale(0)
+    } 
+    to {
+      transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/* Full-width input fields */
+.sign-up input[type=text], .sign-up input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+/* Add a background color when the inputs get focus */
+.sign-up input[type=text]:focus, .sign-up input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+/* Set a style for all buttons */
+.signupbtn2, .cancelbtn2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+  
+.signupbtn2:hover, .cancelbtn2:hover {
+    opacity:1;
+}
+  
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn2, .signupbtn2 {
+    float: left;
+    width: 50%;
+}
+  
+/* Add padding to container elements */
+/* .container {
+    padding: 16px;
+} */
+  
+/* The Modal (background) */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: scroll; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 10px;
+}
+  
+/* Modal Content/Box */
+.modal-content2 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    /* width: 80%; */
+}
+  
+/* Style the horizontal ruler */
+.sign-up hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+   
+/* The Close Button (x) */
+.close2 {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: gray;
+}
+  
+.close2:hover,
+.close2:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+  
+/* Clear floats */
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+  
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn2, .signupbtn2 {
+      width: 100%;
+  }
+}
+/* cart */
+.row2 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+  
+.cart-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+  
+.cart-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+}
+  
+.col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+}
+  
+  .cart-25,
+  .cart-50,
+  .cart-75 {
+    padding: 0 16px;
+}
+  
+.container2 {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+  
+.container2 input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+  
+.container2 label {
+    margin-bottom: 10px;
+    display: block;
+}
+  
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+  
+.btn2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+  
+.btn2:hover {
+    background-color: #45a049;
+}
+  
+.container2 > a {
+    color: #2196F3;
+}
+  
+.container2 > hr {
+    border: 1px solid lightgrey;
+}
+  
+span.price {
+    float: right;
+    color: grey;
+}
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+    /* .row2 {
+      flex-direction: column;
+    } */
+    .cart-25 {
+      margin-bottom: 20px;
+    }
+}

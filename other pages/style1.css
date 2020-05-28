@@ -1,0 +1,23 @@
+body {
+    background-color: #D7CEC7 !important;
+    color: #76323F !important;
+}
+.fa-check-circle {
+    font-size: 300px !important;
+    color: #76323F;
+}
+.note {
+    text-justify: auto;
+}
+a {
+    background-color: #76323F !important;
+    padding: 10px;
+    font-weight: bold;
+    color: #D7CEC7 !important;
+}
+a:link, a:visited {
+    text-decoration: none !important;
+}
+a:hover {
+    background-color: #565656 !important;
+}
